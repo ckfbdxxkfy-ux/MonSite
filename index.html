@@ -117,15 +117,20 @@
 
     <p><em>Le bon talent, au bon moment. C'est mon engagement.</em></p>
 
-    <form>
-        <label>Email :</label>
-        <input type="email" name="email" required>
+    <form action="https://formspree.io/f/xojrdpdq" method="POST">
+    
+    <label>Email :</label>
+    <input type="email" name="email" required>
 
-        <label>Message :</label>
-        <textarea name="message" rows="5" placeholder="Votre besoin..." required></textarea>
+    <label>Message :</label>
+    <textarea name="message" rows="5" placeholder="Votre besoin..." required></textarea>
 
-        <button type="submit" class="btn">Envoyer</button>
-    </form>
+    <!-- Anti-spam -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" class="btn">Envoyer</button>
+
+</form>
 </section>
 
 <footer>
